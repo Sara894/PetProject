@@ -19,6 +19,8 @@ namespace PetProject
             }
             else if(genre == "Фантастика")
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.BackgroundColor = ConsoleColor.Green;
                 Console.WriteLine("Приключения Электроника");
                 Console.WriteLine("Люди Икс");
             }
