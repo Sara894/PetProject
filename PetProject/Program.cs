@@ -12,6 +12,8 @@ namespace PetProject
 
             if(genre == "Комедия")
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.BackgroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Иван Васильевич меняет профессию.");
                 Console.WriteLine("Моя прекрасная няня");
             }
